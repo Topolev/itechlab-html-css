@@ -1,0 +1,12 @@
+.navigation{
+  list-style: none;
+  &__item{
+    float: left;
+    display:block;
+  }
+  &::after{
+    content:"";
+    display: block;
+    clear: both;
+  }
+}

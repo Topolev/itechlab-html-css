@@ -1,0 +1,19 @@
+@import "../variables";
+
+.link{
+
+  display: block;
+
+  &_header{
+    padding: 35px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: $color-gray;
+  }
+
+  &:hover{
+    color: $color-orange;
+  }
+
+}

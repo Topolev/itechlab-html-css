@@ -1,0 +1,17 @@
+.slider {
+  text-align:center;
+
+  &__title {
+    font-size:40px;
+    text-decoration: underline;
+
+  }
+
+  &__description {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  &__button {
+
+  }
+}
