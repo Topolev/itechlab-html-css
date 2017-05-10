@@ -1,16 +1,23 @@
 @import "../variables";
 
 .container{
-  width: 100%;
   display: block;
+  box-sizing: border-box;
+  width: 100%;
+
 
   & .container__content{
     margin: 0 auto;
     max-width: $width-container;
+    box-sizing: border-box;
   }
 
   &.container_bg_light-gray{
     background: $color-light-gray;
+  }
+
+  &.container_bg_turquoise{
+    background: $color-turquoise;
   }
 
 

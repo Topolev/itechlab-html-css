@@ -2,6 +2,7 @@
 
 .link{
 
+
   display: block;
 
   &_header{
@@ -9,7 +10,7 @@
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
-    color: $color-gray;
+    color: $color-turquoise;
   }
 
   &:hover{
