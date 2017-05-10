@@ -1,0 +1,17 @@
+@import "../variables";
+
+.container{
+  width: 100%;
+  display: block;
+
+  & .container__content{
+    margin: 0 auto;
+    max-width: $width-container;
+  }
+
+  &.container_bg_light-gray{
+    background: $color-light-gray;
+  }
+
+
+}

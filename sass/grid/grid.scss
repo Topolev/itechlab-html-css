@@ -1,0 +1,29 @@
+@import '../variables';
+
+.grid {
+  width: 100%;
+  display: table;
+
+  &::after{
+    clear:both;
+    content:"";
+  }
+
+  [class*='grid__cell-']{
+    float: left;
+    min-height: 1px;
+    box-sizing: border-box;
+    padding: 0 $grid-gutter-width/2;
+  }
+
+  @for $i from 1 through $grid-columns{
+    & .grid__cell-#{$i}{
+      width: 100% / $i;
+    }
+  }
+}
+
+
+
+
+
