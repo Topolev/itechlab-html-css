@@ -4,12 +4,38 @@
 .button{
   padding: $padding-button;
   border-radius: $border-radius;
-  background: $color-gray;
+  background: $color-turquoise;
   color: $color-white-gray;
   display: inline-block;
   border: none;
+  font-size: inherit;
+  line-height:1em;
+
+  &.button_primary{
+    background: $color-orange;
+    color: $color-white-gray;
+  }
+  &.button_secondary{
+    background: $color-dark-turquoise;
+    color: $color-white-gray;
+  }
+
+  &.button_circle{
+    border-radius: 50%;
+  }
 
   &.button_bold{
     font-weight: bold;
   }
+
+  &.button_font_lg{
+    font-size: 32px;
+  }
+
+  &.button_bg_empty{
+    color: $color-orange;
+    background: none;
+    padding:0;
+  }
+
 }

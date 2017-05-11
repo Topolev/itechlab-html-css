@@ -1,0 +1,23 @@
+@import "../variables";
+
+.feedback{
+  color: $color-white-gray;
+
+  &__title{
+    margin-left: $grid-gutter-width/2;
+    margin-right: $grid-gutter-width/2;
+
+
+    &_border_buttom{
+      border-bottom: 1px solid $color-dark-turquoise;
+    }
+  }
+
+  &__items{
+
+  }
+  &__item{
+
+  }
+
+}

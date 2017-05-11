@@ -1,20 +1,28 @@
 @import "reset";
 
 @import "./global/global";
+@import "./global/util";
+@import "./form/form";
+@import "./font-icons/font-awesome";
 @import "./container/container";
 @import "./grid/grid";
 @import "./header/header";
 @import "./navigation/navigation";
 
 @import "./slider/slider";
-@import "./moto/moto";
+@import "./motto/motto";
 @import "./info/info";
 @import "./button/button";
 @import "./link/link";
 
 @import "./employee/employee";
+@import "./portfolio/portfolio";
 
 @import "./info/info";
 @import "./button/button";
 @import "./link/link";
+@import "./feedback/feedback";
+@import "./form/form";
+@import "./social/social";
+@import "./subscribe-form/subscribe-form";
 
