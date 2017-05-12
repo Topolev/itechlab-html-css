@@ -7,24 +7,40 @@
   background: $color-turquoise;
   color: $color-white-gray;
   display: inline-block;
-  border: none;
+  border: 2px solid $color-turquoise;
   font-size: inherit;
   line-height:1em;
+  cursor: pointer;
 
-  &.button_primary{
+  &:hover{
+    background: $color-orange;
+    border-color: $color-orange;
+  }
+
+  &_primary{
     background: $color-orange;
     color: $color-white-gray;
+    border: 2px solid $color-orange;
   }
-  &.button_secondary{
+  &_primary:hover{
+    background: $color-white-gray;
+    color:$color-orange;
+  }
+
+  &_secondary{
     background: $color-dark-turquoise;
     color: $color-white-gray;
   }
 
-  &.button_circle{
+  &_size_big{
+    padding: 19px;
+  }
+
+  &_circle{
     border-radius: 50%;
   }
 
-  &.button_bold{
+  &_bold{
     font-weight: bold;
   }
 
@@ -35,6 +51,7 @@
   &.button_bg_empty{
     color: $color-orange;
     background: none;
+    border:none;
     padding:0;
   }
 
