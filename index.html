@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
@@ -43,7 +45,7 @@
         <p class="slider__description">Lorem ipsum laro sit amet dolore sit ame</p>
         <div class="slider__button">
             <button class="button button_primary button_size_big button_circle">
-                <span class="fa fa-long-arrow-down fa-circle"></span>
+                <span class="icon-long-arrow-down square"></span>
             </button>
         </div>
     </div>
@@ -60,10 +62,10 @@
 <section class="container container_bg_light-gray">
     <div class="container__content">
         <div class="grid">
-            <div class="grid__cell-4 info">
+            <div class="grid__cell-md-3 grid__cell-sm-6 info">
                 <div class="info__content">
                     <div class="info__icon">
-                        <span class="fa fa-desktop"></span>
+                        <span class="icon-desktop"></span>
                     </div>
                     <h1 class="info__title">Nunc dignissim</h1>
                     <p class="info__description">
@@ -75,10 +77,10 @@
                     </div>
                 </div>
             </div>
-            <div class="grid__cell-4 info">
+            <div class="grid__cell-md-3 grid__cell-sm-6 info">
                 <div class="info__content">
                     <div class="info__icon">
-                        <span class="fa fa-flask"></span>
+                        <span class="icon-flask"></span>
                     </div>
                     <h1 class="info__title">Aliquam tinci</h1>
                     <p class="info__description">
@@ -90,10 +92,10 @@
                     </div>
                 </div>
             </div>
-            <div class="grid__cell-4 info">
+            <div class="grid__cell-md-3 grid__cell-sm-6 info">
                 <div class="info__content">
                     <div class="info__icon">
-                        <span class="fa fa-cogs"></span>
+                        <span class="icon-cogs"></span>
                     </div>
                     <h1 class="info__title">Vestibu auctor</h1>
                     <p class="info__description">
@@ -105,10 +107,10 @@
                     </div>
                 </div>
             </div>
-            <div class="grid__cell-4 info">
+            <div class="grid__cell-md-3 grid__cell-sm-6 info">
                 <div class="info__content">
                     <div class="info__icon">
-                        <span class="fa fa-bullhorn"></span>
+                        <span class="icon-bullhorn"></span>
                     </div>
                     <h1 class="info__title">Civamus vesti</h1>
                     <p class="info__description">
@@ -131,24 +133,26 @@
             <p class="motto__description">Donec odio uisque volutpat mattis eros ullam malesuada erat ut turpis. </p>
         </div>
         <div class="portfolio__control-buttons">
-            <button class="button button_bg_empty">
-                <span class="fa fa-arrow-circle-left" aria-hidden="true"></span>
-            </button>
-            <button class="button button_bg_empty">
-                <span class="fa fa-arrow-circle-right" aria-hidden="true"></span>
-            </button>
+            <div class="portfolio__wrap-buttons">
+                <button class="button button_bg_empty">
+                    <span class="icon-arrow-circle-left"></span>
+                </button>
+                <button class="button button_bg_empty">
+                    <span class="icon-arrow-circle-right" aria-hidden="true"></span>
+                </button>
+            </div>
         </div>
         <div class="portfolio__images grid">
-            <div class="grid__cell-4">
+            <div class="grid__cell-md-3 grid__cell-sm-6">
                 <img src="imgs/orange01.jpg" class="portfolio__image">
             </div>
-            <div class="grid__cell-4">
+            <div class="grid__cell-md-3 grid__cell-sm-6">
                 <img src="imgs/orange02.jpg" class="portfolio__image">
             </div>
-            <div class="grid__cell-4">
+            <div class="grid__cell-md-3 grid__cell-sm-6">
                 <img src="imgs/orange03.jpg" class="portfolio__image">
             </div>
-            <div class="grid__cell-4">
+            <div class="grid__cell-md-3 grid__cell-sm-6">
                 <img src="imgs/orange04.jpg" class="portfolio__image">
             </div>
         </div>
@@ -161,7 +165,7 @@
 
 <section class="container">
     <div class="container__content grid">
-        <div class="grid__cell-2 employee">
+        <div class="grid__cell-md-6  employee">
             <img src="imgs/employee01.jpg" class="employee__photo">
             <div class="employee__wrap">
                 <h1 class="employee__title">Integer vitae libero</h1>
@@ -173,7 +177,7 @@
                 </p>
             </div>
         </div>
-        <div class="grid__cell-2 employee">
+        <div class="grid__cell-md-6 employee">
             <img src="imgs/employee02.jpg" class="employee__photo">
             <div class="employee__wrap">
                 <h1 class="employee__title">Vestibulum commodo</h1>
@@ -187,7 +191,7 @@
         </div>
     </div>
     <div class="container__content grid">
-        <div class="grid__cell-2 employee">
+        <div class="grid__cell-md-6 employee">
             <img src="imgs/employee03.jpg" class="employee__photo">
             <div class="employee__wrap">
                 <h1 class="employee__title">Fusce pellentesque</h1>
@@ -200,7 +204,7 @@
                 </p>
             </div>
         </div>
-        <div class="grid__cell-2 employee">
+        <div class="grid__cell-md-6  employee">
             <img src="imgs/employee04.jpg" class="employee__photo">
             <div class="employee__wrap">
                 <h1 class="employee__title">Donec quis dui dolor</h1>
@@ -226,7 +230,7 @@
             </p>
         </div>
         <div class="feedback__items grid">
-            <div class="feedback__item grid__cell-2">
+            <div class="feedback__item grid__cell-md-6">
                 <div class="subscribe-form">
                     <div class="subscribe-form__input">
                         <input type="text" class="input input_bg_dark-turquoise"/>
@@ -236,9 +240,9 @@
                     </div>
                 </div>
             </div>
-            <div class="feedback__item grid__cell-2 tweet">
+            <div class="feedback__item grid__cell-md-6 tweet">
                 <div class="tweet__icon">
-                    <span class="fa fa-twitter"></span>
+                    <span class="icon-twitter"></span>
                 </div>
                 <div class="tweet__text">
                     Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
@@ -252,27 +256,27 @@
 
 <section class="container">
     <div class="container__content grid">
-        <div class="grid__cell-3 social">
+        <div class="grid__cell-sm-4 social">
             <p class="social__icon">
-                <span class="fa fa-facebook"></span>
+                <span class="icon-facebook"></span>
             </p>
             <div class="social__wrap">
-                <h1 class="social__title">Follow us onFacebook</h1>
+                <h1 class="social__title">Follow us on Facebook</h1>
                 <p class="social__description">Faucibus toroot menuts</p>
             </div>
         </div>
-        <div class="grid__cell-3 social">
+        <div class="grid__cell-sm-4 social">
             <p class="social__icon">
-                <span class="fa fa-facebook"></span>
+                <span class="icon-google"></span>
             </p>
             <div class="social__wrap">
-                <h1 class="social__title">Follow us on Google +</h1>
+                <h1 class="social__title">Follow us on Google+</h1>
                 <p class="social__description">Faucibus toroot menuts</p>
             </div>
         </div>
-        <div class="grid__cell-3 social">
+        <div class="grid__cell-sm-4 social">
             <p class="social__icon">
-                <span class="fa fa-linkedin"></span>
+                <span class="icon-linkedin"></span>
             </p>
             <div class="social__wrap">
                 <h1 class="social__title">Follow us on LInkedIn</h1>

@@ -3,6 +3,11 @@
 .info{
   color: $color-turquoise;
   text-align: center;
+  border-right: 1px solid #d5d5d5;
+
+  &:last-child{
+    border:none;
+  }
 
   &__content{
     padding: $grid-gutter-width/2 0;

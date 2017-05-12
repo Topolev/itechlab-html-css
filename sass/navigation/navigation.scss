@@ -1,13 +1,14 @@
 .navigation{
   list-style: none;
   &__item{
-    float: left;
+    display:inline-block;
+    position: relative;
+    padding-left: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: normal;
+    color: $color-turquoise;
+  }
 
-    display:block;
-  }
-  &::after{
-    content:"";
-    display: block;
-    clear: both;
-  }
 }

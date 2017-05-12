@@ -3,6 +3,8 @@
 .slider {
   text-align:center;
   background: url("../imgs/slide.jpg");
+  background-repeat:no-repeat ;
+  background-size: cover;
   overflow:hidden;
   color:$color-white-gray;
 
@@ -13,7 +15,7 @@
     letter-spacing: 3px;
 
     text-decoration: underline;
-    margin: 110px auto 15px;
+    margin: 110px auto 0;
     max-width:480px;
     line-height:1.35em;
   }
@@ -28,7 +30,7 @@
     font-stretch: expanded;
     text-transform: uppercase;
 
-    margin: 20px auto 20px;
+    margin: 20px auto 0;
     max-width:390px;
 
   }
