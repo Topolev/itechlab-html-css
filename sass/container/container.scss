@@ -12,11 +12,15 @@
     box-sizing: border-box;
   }
 
-  &.container_bg_light-gray{
+  &_align_center{
+    text-align: center;
+  }
+
+  &_bg_light-gray{
     background: $color-light-gray;
   }
 
-  &.container_bg_turquoise{
+  &_bg_turquoise{
     background: $color-turquoise;
   }
 

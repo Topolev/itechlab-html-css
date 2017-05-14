@@ -1,47 +1,51 @@
 @import "../variables";
 
-.portfolio{
+.portfolio {
 
-  text-align:center;
+  text-align: center;
 
-  &__title{
+  &__title {
     font-size: 34px;
     font-weight: bold;
-    margin: 0 $grid-gutter-width/2  ;
+    margin: 12px $grid-gutter-width/2 0;
+    padding-bottom: 30px;
   }
 
-  &__control-buttons{
+  &__control-buttons {
     display: flex;
     align-items: center;
     font-size: 22px;
     margin: 0 $grid-gutter-width/2;
 
-    &::after, &::before{
+    &::after, &::before {
       content: "";
-      display:block;
-      width:100%;
-      border:1px solid $color-light-gray;
+      display: block;
+      width: 100%;
+      border: 1px solid $color-light-gray;
     }
   }
-  &__wrap-buttons{
+  &__wrap-buttons {
     padding: 0 15px;
     display: flex;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
 
   }
 
-  &__images{
-    margin-top: 35px;
-    margin-bottom: 20px;
+  &__images {
+
   }
-  &__image{
+  &__image {
     max-width: 100%;
     border-radius: $border-radius;
+    margin: 35px 0 20px 0;
   }
-  &__button{
+  &__button {
     font-size: 18px;
     font-weight: bold;
-    margin-top:35px;
-    margin-bottom:110px;
+    padding-top: 21px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid $color-light-gray;
+    margin:  0 15px;
+    margin-bottom:40px;
   }
 }

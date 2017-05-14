@@ -6,31 +6,38 @@
 
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
 </head>
 <body>
 
 <header class="container">
     <div class="container__content header">
         <div class="header__logo">Site Name</div>
-        <div class="header__nav">
-            <ul class="navigation">
+        <div class="navigation navigation_header header__nav">
+            <div class="header__toggle-button navigation__toggle-button">
+                <button class="button button_bg_empty js-navigation-toggle-button">
+                    <span class="icon-three-bars"></span>
+                </button>
+            </div>
+            <ul class="navigation__items  js-navigation-nav">
                 <li class="navigation__item">
-                    <a href="" class="link link_header">Home</a>
+                    <a href="" class="navigation__link link">Home</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="" class="link link_header">About</a>
+                    <a href="" class=" navigation__link link">About</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="" class="link link_header">Services</a>
+                    <a href="" class="navigation__link link">Services</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="" class="link link_header">Project</a>
+                    <a href="" class="navigation__link link">Project</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="" class="link link_header">Blog</a>
+                    <a href="" class=" navigation__link link">Blog</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="" class="link link_header">Contact</a>
+                    <a href="" class="navigation__link link">Contact</a>
                 </li>
             </ul>
         </div>
@@ -40,14 +47,14 @@
 
 
 <section class="container slider">
-    <div class="container__content ">
+    <div class="container__content">
         <h1 class="slider__title">Lorem ipsum laro dolore sit amet vivamus</h1>
         <p class="slider__description">Lorem ipsum laro sit amet dolore sit ame</p>
         <div class="slider__button">
-            <button class="button button_primary button_size_big button_circle">
-                <span class="icon-long-arrow-down square"></span>
-            </button>
-        </div>
+        <button class="button button_primary button_circle button_slider">
+            <span class="icon-long-arrow-down"></span>
+        </button>
+
     </div>
 </section>
 
@@ -231,23 +238,36 @@
         </div>
         <div class="feedback__items grid">
             <div class="feedback__item grid__cell-md-6">
+                <div class="simple-panel">
+                    <div class="simple-panel__icon">
+                        <span class="icon-envelope"></span>
+                    </div>
+                    <div class="simple-panel__content">
+                        <h1 class="simple-panel__title">Subscribe Our Newsletter</h1>
+                        <p class="simple-panel__description">
+                            via email on how to grow your business online
+                        </p>
+                    </div>
+                </div>
                 <div class="subscribe-form">
                     <div class="subscribe-form__input">
                         <input type="text" class="input input_bg_dark-turquoise"/>
                     </div>
                     <div class="subscribe-form__button">
-                        <button class="button button_secondary button_bold">Sign up</button>
+                        <button class="button button_secondary button_bold button_subscribe-form">Sign up</button>
                     </div>
                 </div>
             </div>
-            <div class="feedback__item grid__cell-md-6 tweet">
-                <div class="tweet__icon">
-                    <span class="icon-twitter"></span>
-                </div>
-                <div class="tweet__text">
-                    Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
-                    mauris sit amet orci. Aenean dignissim pellentesque felis euismod in,
-                    pharetra a, ultricies in, diam. Sed arcu. Cras consequat
+            <div class="feedback__item grid__cell-md-6">
+                <div class="tweet">
+                    <div class="tweet__icon">
+                        <span class="icon-twitter"></span>
+                    </div>
+                    <div class="tweet__text">
+                        Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
+                        mauris sit amet orci. Aenean dignissim pellentesque felis euismod in,
+                        pharetra a, ultricies in, diam. Sed arcu. Cras consequat
+                    </div>
                 </div>
             </div>
         </div>
@@ -287,6 +307,14 @@
     </div>
 </section>
 
+<footer class="container container_bg_turquoise">
+    <div class="container__content container_align_center">
+        <p>Designed by: www.alltemplateneeds.com / Images from: www.wallpaperswide.com / www.photorack.net Copyright(c)
+            website name. </p>
+    </div>
+</footer>
 
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html>
